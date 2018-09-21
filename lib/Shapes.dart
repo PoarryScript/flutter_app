@@ -10,6 +10,13 @@ abstract class Shape {
   num get area;
 }
 
+//todo Dart 语言并没有提供 interface 关键字，但是每一个类都隐式地定义了一个接口。
+
+class CircleMock implements Circle {
+  num area;
+  num radius;
+}
+
 class Circle implements Shape {
   final num radius;
 
