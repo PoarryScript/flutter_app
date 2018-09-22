@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc938385-df2c-4a0f-8a0e-4ecb084bafba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/ToturialHome.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/BaseUI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/BaseUI.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -33,7 +33,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="apk" value="1" />
-          <entry key="dart" value="17" />
+          <entry key="dart" value="19" />
           <entry key="gradle" value="1" />
           <entry key="iml" value="3" />
           <entry key="java" value="1" />
@@ -45,7 +45,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="APK" value="1" />
-          <entry key="Dart" value="17" />
+          <entry key="Dart" value="19" />
           <entry key="Groovy" value="1" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="JAVA" value="1" />
@@ -56,16 +56,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="3443" />
+          <entry key="dart" value="3739" />
           <entry key="txt" value="75" />
-          <entry key="yaml" value="1" />
+          <entry key="yaml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="3443" />
+          <entry key="Dart" value="3739" />
           <entry key="PLAIN_TEXT" value="75" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -73,33 +73,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/widget_test.dart">
+        <entry file="file://$PROJECT_DIR$/lib/BaseUI.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#1051#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/BaseUI.dart">
+        <entry file="file://$PROJECT_DIR$/lib/ToturialHome.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="-115">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/DartAsync.dart">
+        <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/packages/flutter/lib/src/material/icon_button.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -143,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="290">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -180,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/DartTutorial.dart" />
         <option value="$PROJECT_DIR$/lib/Rectangle.dart" />
@@ -188,6 +182,8 @@
         <option value="$PROJECT_DIR$/lib/DartFunction.dart" />
         <option value="$PROJECT_DIR$/lib/DartAsync.dart" />
         <option value="$PROJECT_DIR$/lib/BaseUI.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/ToturialHome.dart" />
       </list>
     </option>
   </component>
@@ -273,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Flutter.BaseUI.dart">
+  <component name="RunManager" selected="Flutter.ToturialHome.dart">
     <configuration name="DartAsync.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/DartAsync.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -281,11 +277,6 @@
     </configuration>
     <configuration name="DartFunction.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/DartFunction.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Rectangle.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/Rectangle.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -298,21 +289,25 @@
       <option name="filePath" value="$PROJECT_DIR$/lib/BaseUI.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="ToturialHome.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/ToturialHome.dart" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Flutter.main.dart" />
-      <item itemvalue="Dart Command Line App.Rectangle.dart" />
       <item itemvalue="Dart Command Line App.Shapes.dart" />
       <item itemvalue="Dart Command Line App.DartFunction.dart" />
       <item itemvalue="Dart Command Line App.DartAsync.dart" />
       <item itemvalue="Flutter.BaseUI.dart" />
+      <item itemvalue="Flutter.ToturialHome.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter.ToturialHome.dart" />
         <item itemvalue="Flutter.BaseUI.dart" />
         <item itemvalue="Dart Command Line App.Shapes.dart" />
         <item itemvalue="Dart Command Line App.DartAsync.dart" />
         <item itemvalue="Dart Command Line App.DartFunction.dart" />
-        <item itemvalue="Dart Command Line App.Rectangle.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +383,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2150" y="25" width="1330" height="952" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17480315" />
       <window_info id="Captures" order="1" side_tool="true" />
@@ -399,12 +393,12 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.24857469" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.30444697" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.3039092" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.35435057" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.35435057" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3295325" />
@@ -585,23 +579,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/flutter_app.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/BaseUI.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/packages/flutter/lib/src/material/icon_button.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ToturialHome.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
