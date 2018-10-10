@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bc938385-df2c-4a0f-8a0e-4ecb084bafba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/darttutorial/annition.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/darttutorial/DartHttpCookbook.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/darttutorial/DartHttpServer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/darttutorial/ServersocketsClient.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/darttutorial/ServersocketsServer.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/darttutorial/tutorial.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/darttutorial/tutorial.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -20,7 +25,7 @@
     <session id="548475873">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.25" value="2" />
@@ -28,42 +33,44 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="apk" value="1" />
-          <entry key="dart" value="44" />
-          <entry key="gradle" value="4" />
+          <entry key="dart" value="56" />
+          <entry key="gradle" value="5" />
           <entry key="iml" value="4" />
           <entry key="java" value="1" />
           <entry key="kt" value="1" />
           <entry key="lock" value="4" />
-          <entry key="properties" value="1" />
+          <entry key="properties" value="2" />
           <entry key="yaml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="APK" value="1" />
-          <entry key="Dart" value="44" />
-          <entry key="Groovy" value="4" />
+          <entry key="Dart" value="56" />
+          <entry key="Groovy" value="5" />
           <entry key="IDEA_MODULE" value="4" />
           <entry key="JAVA" value="1" />
           <entry key="Kotlin" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Properties" value="1" />
+          <entry key="Properties" value="2" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="6688" />
+          <entry key="dart" value="8150" />
           <entry key="gradle" value="1" />
           <entry key="txt" value="84" />
           <entry key="yaml" value="34" />
@@ -71,7 +78,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="6688" />
+          <entry key="Dart" value="8150" />
           <entry key="Groovy" value="1" />
           <entry key="PLAIN_TEXT" value="84" />
           <entry key="YAML" value="34" />
@@ -82,64 +89,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/tutorial.dart">
+        <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/DartHttpCookbook.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+            <state relative-caret-position="-198">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/DartHttpServer.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/ServersocketsServer.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/annition.dart">
+        <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/ServersocketsClient.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="154">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/packages/flutter/lib/src/material/chip.dart">
+        <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/bin/cache/pkg/sky_engine/lib/async/stream.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1456">
-              <caret line="1337" column="22" selection-start-line="1337" selection-start-column="22" selection-end-line="1337" selection-end-column="22" />
+            <state relative-caret-position="355">
+              <caret line="637" column="12" selection-start-line="637" selection-start-column="12" selection-end-line="637" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/bin/cache/pkg/sky_engine/lib/core/int.dart">
+        <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.0.6/lib/crypto.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="154">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#364#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/bin/cache/pkg/sky_engine/lib/core/num.dart">
+        <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/bin/cache/pkg/sky_engine/lib/convert/json.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="121" column="66" lean-forward="true" selection-start-line="121" selection-start-column="66" selection-end-line="121" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/BaseHelper.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="292">
+              <caret line="164" column="10" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -204,14 +226,19 @@
         <option value="$PROJECT_DIR$/lib/BaseHelper.dart" />
         <option value="$PROJECT_DIR$/lib/src/darttutorial/tutorial.dart" />
         <option value="$PROJECT_DIR$/lib/src/darttutorial/annition.dart" />
+        <option value="$PROJECT_DIR$/lib/src/darttutorial/FileOption.dart" />
+        <option value="$PROJECT_DIR$/lib/src/darttutorial/DartHttpCookbook.dart" />
+        <option value="$PROJECT_DIR$/lib/src/darttutorial/DartHttpServer.dart" />
+        <option value="$PROJECT_DIR$/lib/src/darttutorial/DartSockets.dart" />
+        <option value="$PROJECT_DIR$/lib/src/darttutorial/ServersocketsClient.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2502" />
-    <option name="y" value="134" />
-    <option name="width" value="1225" />
-    <option name="height" value="830" />
+    <option name="x" value="2271" />
+    <option name="y" value="14" />
+    <option name="width" value="1285" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,21 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="flutter_app" type="58d84e3e:PackageViewProjectNode" />
-              <item name="flutter_app" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="flutter_app" type="58d84e3e:PackageViewProjectNode" />
-              <item name="flutter_app_android" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -276,6 +288,14 @@
             <path>
               <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_app" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,6 +315,21 @@
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flutter_app" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter_app" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="flutter_app" type="58d84e3e:PackageViewProjectNode" />
+              <item name="flutter_app_android" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
@@ -328,19 +363,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.tutorial.dart">
+  <component name="RunManager" selected="Dart Command Line App.ServersocketsClient.dart">
     <configuration name="BaseHelper.dart (1)" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/BaseHelper.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="BaseHelper.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/src/BaseHelper.dart" />
+    <configuration name="DartHttpCookbook.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/src/darttutorial/DartHttpCookbook.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Shapes.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/Shapes.dart" />
+    <configuration name="DartHttpServer.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/src/darttutorial/DartHttpServer.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ServersocketsClient.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/src/darttutorial/ServersocketsClient.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ServersocketsServer.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/src/darttutorial/ServersocketsServer.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -349,30 +394,22 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="BaseUI.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/BaseUI.dart" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ToturialHome.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/ToturialHome.dart" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Dart Command Line App.BaseHelper.dart (1)" />
       <item itemvalue="Flutter.main.dart" />
-      <item itemvalue="Dart Command Line App.BaseHelper.dart" />
-      <item itemvalue="Dart Command Line App.Shapes.dart" />
-      <item itemvalue="Flutter.BaseUI.dart" />
-      <item itemvalue="Flutter.ToturialHome.dart" />
       <item itemvalue="Dart Command Line App.tutorial.dart" />
+      <item itemvalue="Dart Command Line App.DartHttpCookbook.dart" />
+      <item itemvalue="Dart Command Line App.DartHttpServer.dart" />
+      <item itemvalue="Dart Command Line App.ServersocketsServer.dart" />
+      <item itemvalue="Dart Command Line App.ServersocketsClient.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.ServersocketsClient.dart" />
+        <item itemvalue="Dart Command Line App.ServersocketsServer.dart" />
+        <item itemvalue="Dart Command Line App.DartHttpServer.dart" />
+        <item itemvalue="Dart Command Line App.DartHttpCookbook.dart" />
         <item itemvalue="Dart Command Line App.tutorial.dart" />
-        <item itemvalue="Dart Command Line App.BaseHelper.dart" />
-        <item itemvalue="Flutter.ToturialHome.dart" />
-        <item itemvalue="Flutter.BaseUI.dart" />
-        <item itemvalue="Dart Command Line App.Shapes.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -457,14 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1538988678947</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ADD: Dart Tutorial">
+      <created>1539081460845</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1539081460846</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2502" y="134" width="1225" height="830" extended-state="0" />
+    <frame x="2271" y="14" width="1285" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19055794" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1812245" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -472,13 +516,13 @@
       <window_info id="Build Variants" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.24857469" />
-      <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.38599107" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.24748202" />
+      <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.4216028" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Logcat" order="4" />
-      <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.46725664" />
+      <window_info anchor="bottom" id="Logcat" order="4" weight="0.3294964" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4589928" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.33956835" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32912987" />
@@ -486,7 +530,7 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.32977968" />
-      <window_info anchor="right" id="Flutter Outline" order="4" visible="true" weight="0.19742489" />
+      <window_info anchor="right" id="Flutter Outline" order="4" visible="true" weight="0.18775511" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
     <layout-to-restore>
@@ -527,6 +571,34 @@
     <MESSAGE value="ADD: Dart async" />
     <MESSAGE value="ADD: Dart Tutorial" />
     <option name="LAST_COMMIT_MESSAGE" value="ADD: Dart Tutorial" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="DartCommandLineRunConfigurationType">
+        <watch expression="headerResponse.body" language="Dart" />
+        <watch expression="print(new List.filled(heading.length, '=').join());" language="Dart" />
+        <watch expression="print(repos);" language="Dart" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>print(repos);</expression-string>
+        <language-id>Dart</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>print(new List.filled(heading.length, '=').join());</expression-string>
+        <language-id>Dart</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>headerResponse.body</expression-string>
+        <language-id>Dart</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java">
@@ -686,9 +758,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/tutorial.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2816">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/packages/flutter/lib/src/material/chip.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29018">
+          <caret line="1337" column="22" selection-start-line="1337" selection-start-column="22" selection-end-line="1337" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/bin/cache/pkg/sky_engine/lib/core/int.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/annition.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.11.3+17/lib/src/response.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.11.3+17/lib/http.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/bin/cache/pkg/sky_engine/lib/core/num.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="121" column="66" selection-start-line="121" selection-start-column="66" selection-end-line="121" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -723,38 +841,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/bin/cache/pkg/sky_engine/lib/core/int.dart">
+    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/bin/cache/pkg/sky_engine/lib/convert/json.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="292">
+          <caret line="164" column="10" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/bin/cache/pkg/sky_engine/lib/core/num.dart">
+    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.0.6/lib/src/md5.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="121" column="66" lean-forward="true" selection-start-line="121" selection-start-column="66" selection-end-line="121" selection-end-column="66" />
+        <state relative-caret-position="-792">
+          <folding>
+            <element signature="e#0#3802#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/packages/flutter/lib/src/material/chip.dart">
+    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.0.6/lib/crypto.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1456">
-          <caret line="1337" column="22" selection-start-line="1337" selection-start-column="22" selection-end-line="1337" selection-end-column="22" />
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#364#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/tutorial.dart">
+    <entry file="file://D:/Android/flutterSdk/flutter_windows_v0.7.3-beta/flutter/bin/cache/pkg/sky_engine/lib/async/stream.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        <state relative-caret-position="355">
+          <caret line="637" column="12" selection-start-line="637" selection-start-column="12" selection-end-line="637" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/annition.dart">
+    <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/DartHttpServer.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/DartHttpCookbook.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/ServersocketsServer.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/darttutorial/ServersocketsClient.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
